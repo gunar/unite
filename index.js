@@ -5,8 +5,6 @@ const { spawn, spawnSync } = require('child_process')
 const [ pathToNode, pathToFile, ...commands ] = process.argv
 const blessed = require('blessed')
 
-console.log(commands)
-
 const screen = blessed.screen({
   smartCSR: true,
 })
