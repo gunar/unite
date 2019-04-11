@@ -7,10 +7,12 @@
     "parallel",
     "dashboard"
   ],
-  "bin": { "unite": "./index.js" },
+  "bin": {
+    "unite": "./index.js"
+  },
   "repository": "git@github.com:gunar/unite.git",
   "author": "Gunar Gessner <gunargessner@gmail.com>",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
