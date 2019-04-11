@@ -18,8 +18,11 @@ commands.forEach((command, index) => {
     interactive: false,
     content: '',
     tags: true,
-    title: cmd,
-    border: { type: 'line' },
+    label: cmd,
+    border: {
+      fg: 'green',
+      type: 'line',
+    },
   }
   const log = blessed.log(opts)
   screen.append(log)
