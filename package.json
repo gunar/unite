@@ -1,0 +1,18 @@
+{
+  "name": "@gunar/unite",
+  "description": "Unite the output of multiple processes in a single screen.",
+  "keywords": [
+    "unite",
+    "concurrently",
+    "parallel",
+    "dashboard"
+  ],
+  "repository": "git@github.com:gunar/unite.git",
+  "author": "Gunar Gessner <gunargessner@gmail.com>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
