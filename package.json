@@ -7,6 +7,9 @@
     "parallel",
     "dashboard"
   ],
+  "files": [
+    "index.js"
+  ],
   "bin": {
     "unite": "./index.js"
   },
