@@ -7,7 +7,7 @@
 ### Installation
 
 ```
-yarn add -D unite
+yarn add -D @gunar/unite
 ```
 
 ### Usage
